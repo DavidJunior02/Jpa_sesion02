@@ -32,7 +32,7 @@ public class Prueba {
 				System.out.println("=====================================");
 				TbUsuario usu = em.find(TbUsuario.class, 2);
 				System.out.println(usu.getNomUsua() + " " + usu.getApeUsua());
-				System.out.println("=====================================");
+				
 				// insertar usuario
 				/*em.getTransaction().begin();
 
